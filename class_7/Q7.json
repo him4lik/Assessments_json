@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "You’re given marks in 4 subjects out of 100, stored in variables a1, a2, a3, a4 and a5.Which one is the correct expression to calculate your total marks in exams:"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "(a1+a2+a3+a4+a5)",
+        "2": "(a1+a2)+(a3+a4+a5)",
+        "3": "(a1+a2)*(a3+a4+a5)3",
+        "4": "(a1*a2*a3*a4*a5)1"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": ""
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": ""
+          }
+        ]
+      }
+    }
+  ]

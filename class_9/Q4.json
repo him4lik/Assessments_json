@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "Operators with same precedence are evaluated from   to  ."
+      "value": "Operators with same precedence are evaluated from '    ' to '    '."
     },
     {
       "component": "options",

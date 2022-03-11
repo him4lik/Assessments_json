@@ -6,19 +6,19 @@
     },
     {
       "component": "text",
-      "value": "Operators with same precedence are evaluated from to .
+      "value": "Operators with same precedence are evaluated from   to  ."
     },
     {
       "component": "options",
       "value": {
-        "1": "64,64",
-        "2": "64,512"
-        "3": "512,512",
+        "1": "left, right",
+        "2": "right, left"
+        "3": "randomly",
       }
     },
     {
       "component": "solution",
-      "value": "2"
+      "value": "1"
     },
     {
       "component": "output",

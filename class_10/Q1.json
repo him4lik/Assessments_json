@@ -1,0 +1,58 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What does the following code print?: <br>if 4 + 5 == 10:<br>  print('TRUE')<br>else:<br>  print('FALSE')<br>print('TRUE')"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "TRUE <br> TRUE <br> FALSE",
+        "2": "FALSE<br>TRUE",
+        "3": "TRUE<br>FALSE<br>TRUE"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": ""
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value""
+          }
+        ]
+      }
+    }
+  ]

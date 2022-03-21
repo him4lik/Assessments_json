@@ -1,0 +1,57 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "We can put the else block after all elif blocks."
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "True",
+        "2": "False"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Else block will be executed if none of the conditions in if and elif block evaluates to be true."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value":"Else block will be executed if none of the conditions in if and elif block evaluates to be true."
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,58 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of following code if n= 100<br>if n>0 and n<10:<br> print("One digit number")<br>elif n>10 and n<100:<br> print("Two digit number")<br>elif n>100 and n<1000:<br> print("Three digit number")<br>else:<br>  print("More than three digit number")"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Three digit number",
+        "2": "More than three digit number",
+        "3": "Two digit number"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "First condition is true for n from 1 to 9, the second condition is true for n from 11 to 99 and the third condition is  true for n from 101 to 999. Hence for n=100, else block will be executed."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "First condition is true for n from 1 to 9, the second condition is true for n from 11 to 99 and the third condition is  true for n from 101 to 999. Hence for n=100, none of the conditions would be true.",
+          }
+        ]
+      }
+    }
+  ]

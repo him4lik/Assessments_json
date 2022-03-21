@@ -1,0 +1,57 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "if condition1:<br>&emsp;if condition2:<br>&emsp;&emsp;print(1)<br>&emsp;else:<br>&emsp;&emsp;print(2)<br>else:<br>&emsp;print(3)<br><br>Is this correct syntax of Nested If Else?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In nested if else we implement another if else block in an outer if or else block."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In nested if else we implement another if else block in an outer if or else block."
+          }
+        ]
+      }
+    }
+  ]

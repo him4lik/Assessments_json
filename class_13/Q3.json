@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is True regarding loops in Python?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Loops should be ended with the keyword 'end'.",
+        "2": "No loop can be used to iterate through the elements of strings.",
+        "3": "Keyword 'break' can be used to bring control out of the current loop.",
+        "4": "Keyword 'continue' is used to continue with the remaining statementsinside the loop."
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Only the 3rd statement is true regarding loops in python."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Only the 3rd statement is true regarding loops in python."
+          }
+        ]
+      }
+    }
+  ]

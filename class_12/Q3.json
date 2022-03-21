@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Complete the code in such a way that output would be “Teenager” if age is lessthan 20 and “Adult” if age is greater than or equal to 20<br><br>age=int(input())<br>if _________ :<br>&emsp;print(“Teenager”)<br>else:<br>&emsp;_____"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "3",
+        "2": "3,5",
+        "3": "5",
+        "2": "4"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "For print(“Teenager”) to be executed, the ‘if’ statement should be true. Hence it should be age<20 and in ‘else’ block we should print “Adult”."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "For print(“Teenager”) to be executed, the ‘if’ statement should be true. Hence it should be age<20 and in ‘else’ block we should print “Adult”."
+          }
+        ]
+      }
+    }
+  ]

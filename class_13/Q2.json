@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following evaluates to True when a is equal to b or when a is equal to 5?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "a == b == 5",
+        "2": "a = b or a = 5",
+        "3": "a == b or a == 5",
+        "4": "a == b and a = 5"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since == is comparison operator and = is assignment operator, we will use == to compare values and we will use ‘or’ logical operator according to the question."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since == is comparison operator and = is assignment operator, we will use == to compare values and we will use ‘or’ logical operator according to the question."
+          }
+        ]
+      }
+    }
+  ]

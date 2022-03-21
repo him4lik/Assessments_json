@@ -1,0 +1,57 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of the following code?<br>num=12<br>If num>=20 and num>=4 or num>=8:<br>print(“Yes”)<br>else:<br>print(“No”)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Yes",
+        "2": "No"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since the precedence of logical operators in python is not>>and>>or, condition in if statement can be written as ((num>=20 and num>=4) or num>=8). Hence its value would be true for num=12"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value":"Since the precedence of logical operators in python is not>>and>>or, condition in if statement can be written as ((num>=20 and num>=4) or num>=8)."
+          }
+        ]
+      }
+    }
+  ]

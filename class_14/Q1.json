@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the value of x<br>x = 0<br>while (x < 100):<br>&emsp;x+=2 <br>print(x)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "101",
+        "2": "99",
+        "3": "None of the above, this is an infinite loop",
+        "4": "100"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In the last iteration the value of x is 100 where loop execution stops."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In the last iteration the value of x is 100 where loop execution stops."
+          }
+        ]
+      }
+    }
+  ]

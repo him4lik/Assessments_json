@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which one of the following is the correct way of calling a function?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "function_name()",
+        "2": "call function_name()",
+        "3": "ret function_name():",
+        "4": "function function_name()"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We call a function by function name followed by parenthesis containing 0 or more arguments."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We call a function by function name followed by parenthesis containing 0 or more arguments."
+          }
+        ]
+      }
+    }
+  ]

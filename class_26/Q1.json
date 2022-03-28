@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "How is a function declared in Python?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "def function function_name():",
+        "2": "declare function function_name():",
+        "3": "def function_name():",
+        "4": "edeclare function_name():"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "A function is defined in python by using def keyword followed by function name, parenthesis and a colon."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "A function is defined in python by using def keyword followed by function name, parenthesis and a colon."
+          }
+        ]
+      }
+    }
+  ]

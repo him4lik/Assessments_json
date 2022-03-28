@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of below Python code?<br>list1=[1,3,5,2,4,6,2]<br>list1.remove(2)<br>print(sum(list1))"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "18",
+        "2": "19",
+        "3": "21",
+        "4": "22"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "remove() function of lists removes first occurance of the given number from the list and sum() function with a list as argument gives sum of its elements."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "remove() function of lists removes first occurance of the given number from the list and sum() function with a list as argument gives sum of its elements."
+          }
+        ]
+      }
+    }
+  ]

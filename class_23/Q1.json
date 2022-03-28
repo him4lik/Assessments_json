@@ -1,0 +1,58 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the following code<br>aList = ["PYnative", [4, 8, 12, 16]]<br>print(aList[0][1])<br>print(aList[1][3])]"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "P 8<br>Y 16",
+        "2": "P<br>12",
+        "3": "Y<br>16"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We are obtaining second element of the string “PYnative” and fourth element of the list [4 ,8 ,12, 16]"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We are obtaining first element of the string “PYnative” and third element of the list [4 ,8 ,12, 16]"
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is true about List data type in Python?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "List is a Sequence data type",
+        "2": "List is mutable",
+        "3": "List can have elements of different data type",
+        "4": "All of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Sequence data types in python are list, tuple and string. List is mutable and can have elements of different data types."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Sequence data types in python are list, tuple and string. List is mutable and can have elements of different data types."
+          }
+        ]
+      }
+    }
+  ]

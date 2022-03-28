@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following code :<br>L=[1,5,9]<br>print(sum(L),max(L),min(L))"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "15 9 1",
+        "2": "Error",
+        "3": "Max and Min are only for String Value",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "sum(), max(), and min() functions used with a list as argument will returns sum, maximum and minimum of that list respectively."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "sum(), max(), and min() functions used with a list as argument will returns sum, maximum and minimum of that list respectively."
+          }
+        ]
+      }
+    }
+  ]

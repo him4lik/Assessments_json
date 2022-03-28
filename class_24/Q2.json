@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of the following Python code?<br>d1={"abc":5,"def":6,"ghi":7}<br>print(d1[0])"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "abc",
+        "2": "5",
+        "3": "{"abc":5}",
+        "4": "Error"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "It would show KeyError because 0 is not a key inn d1"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "It would show KeyError because 0 is not a key inn d1"
+          }
+        ]
+      }
+    }
+  ]

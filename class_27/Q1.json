@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "def cal(n1) : What is n1?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Parameter",
+        "2": "Argument",
+        "3": "Keyword",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In function definition, variables in parenthesis are called parameters and in function call, values in parentheses are called arguments"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "In function definition, variables in parenthesis are called parameters and in function call, values in parentheses are called arguments"
+          }
+        ]
+      }
+    }
+  ]

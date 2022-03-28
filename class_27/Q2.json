@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the code shown below?<br>x=100<br>def f1():<br>&emsp;x=100<br>&emsp;print(x)<br>x=+1<br>f1()"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Error",
+        "2": "100",
+        "3": "101",
+        "4": "99"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Variables defined within a function, cannot be accessed from outside."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Variables defined within a function, cannot be accessed from outside."
+          }
+        ]
+      }
+    }
+  ]

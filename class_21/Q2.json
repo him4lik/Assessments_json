@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following code :<br>L=[“Amit”,”Sumit”,”Naina”]<br>L1=[“Sunil”]<br>print(L + L1)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "[‘Amit’ , ‘Sumit’ , ‘Naina’ , [‘Sunil’]]",
+        "2": "[‘Amit’ , ‘Sumit’ , ‘Naina’ , ‘Sunil’]",
+        "3": "List can not concatenate",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Using + operator with two lists results in another list with elements from both the lists."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Using + operator with two lists results in another list with elements from both the lists."
+          }
+        ]
+      }
+    }
+  ]

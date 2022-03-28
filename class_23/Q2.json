@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the following code?<br>L = ['a', ['bb', 'cc'], 'd']<br>L[1].append('xx')<br>print(L)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "['a', ['bb', 'cc'], 'd', 'xx']",
+        "2": "['a', ['bb', 'cc', 'xx'], 'd']",
+        "3": "['a', 'xx', ['bb', 'cc'], 'd']",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since the second element is itself a list, we are appending an element to it"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since the second element is itself a list, we are appending an element to it"
+          }
+        ]
+      }
+    }
+  ]

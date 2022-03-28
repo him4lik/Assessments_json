@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following code :<br>L=[1,2,3,4,5]<br>for i in L:<br>&emsp;print(i, end=", ")"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "1, 2, 3, 4, 5",
+        "2": "0, 1, 2, 3, 4",
+        "3": "Error",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can iterate over elements of a list using a for loop."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can iterate over elements of a list using a for loop."
+          }
+        ]
+      }
+    }
+  ]

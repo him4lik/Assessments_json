@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the add() function call<br>def add(a, b):<br>&emsp;return a+5, b+5<br>result = add(3, 2)<br>print(result)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "15",
+        "2": "8",
+        "3": "(8, 7)",
+        "4": "Syntax Error"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Here, add() function is adding 5 to both the arguments and returning the same."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Here, add() function is adding 5 to both the arguments and returning the same."
+          }
+        ]
+      }
+    }
+  ]

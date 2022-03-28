@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following:<br>T=(1,2,3,4,5.5)<br>L = list(T)<br>print(L*2)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "[2, 4, 6, 8, 11]",
+        "2": "[1, 2, 3, 4, 5.5, 1, 2, 3, 4, 5.5]",
+        "3": "Error",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Multiplying a list with an integer will result in another list with elements repeating as many times as the given integer is."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Multiplying a list with an integer will result in another list with elements repeating as many times as the given integer is."
+          }
+        ]
+      }
+    }
+  ]

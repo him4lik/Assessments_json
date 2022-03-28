@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following statements create a dictionary?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "d = {}",
+        "2": "d = {“john”:40, “peter”:45}",
+        "3": "d = {40:”john”, 45:”peter”}",
+        "4": "All of the mentioned"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Syntax is correct and keys are unique and immutable in all the options."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Syntax is correct and keys are unique and immutable in all the options."
+          }
+        ]
+      }
+    }
+  ]

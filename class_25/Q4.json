@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following builtin functions is used to empty the dictionary?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "pop()",
+        "2": "delete()",
+        "3": "clear()",
+        "4": "empty()"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "pop()  deletes a single element and the dictionary doesn’t have delete() and empty() functions."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "pop()  deletes a single element and the dictionary doesn’t have delete() and empty() functions."
+          }
+        ]
+      }
+    }
+  ]

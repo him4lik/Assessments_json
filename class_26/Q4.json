@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Choose the correct statement"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "We can create a function with no argument and no return value.",
+        "2": "We can create function with no argument and with return value(s)",
+        "3": "We can create a function with argument(s) and no return value.",
+        "4": "All of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Functions can be created with or without parameters and return values. No return value means that function will return None."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Functions can be created with or without parameters and return values. No return value means that function will return None."
+          }
+        ]
+      }
+    }
+  ]

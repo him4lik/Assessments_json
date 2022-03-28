@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "You can also create your own functions, these functions are called?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "built-in functions",
+        "2": "user-defined functions",
+        "3": "py function",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Built-in functions are already defined in python and functions defined by programmers are called user-defined functions"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Built-in functions are already defined in python and functions defined by programmers are called user-defined functions"
+          }
+        ]
+      }
+    }
+  ]

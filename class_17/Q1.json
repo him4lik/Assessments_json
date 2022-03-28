@@ -1,0 +1,57 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "In nested loops the outer loop must be terminated before the inner loop."
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "True",
+        "2": "False"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Reverse is true. Inner loop must be terminated before the outer loop"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Reverse is true. Inner loop must be terminated before the outer loop"
+          }
+        ]
+      }
+    }
+  ]

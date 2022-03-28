@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which one of the following is correct?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "In python, a dictionary can have two same keys with different values.",
+        "2": "In python, a dictionary can have two same values with different keys",
+        "3": "In python, a dictionary can have two same keys or same values but cannot have two same key-value pair",
+        "4": "In python, a dictionary can neither have two same keys nor two same values."
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Keys in dictionaries are of any immutable data type, and it must be unique because we can’t get two values for the same key."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Keys in dictionaries are of any immutable data type, and it must be unique because we can’t get two values for the same key."
+          }
+        ]
+      }
+    }
+  ]

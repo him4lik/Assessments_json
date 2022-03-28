@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "what is the output of the following code<br>lis=[[]]*4<br>print(lis)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "[[][][][]]",
+        "2": "[4]",
+        "3": "[0,0,0,0]",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Given syntax will make a list with 4 empty lists as its elements."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Given syntax will make a list with 4 empty lists as its elements."
+          }
+        ]
+      }
+    }
+  ]

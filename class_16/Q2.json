@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of the following code?<br>a="pen"<br>for i in a:<br>&emsp;print(i, end=" "))"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "p e n",
+        "2": "pen pen pen",
+        "3": "pen",
+        "4": "None"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "The ‘for’ loop is picking one character at a time from the given string and printing it."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "The ‘for’ loop is picking one character at a time from the given string and printing it."
+          }
+        ]
+      }
+    }
+  ] 

@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following:<br>A = {1 : "One", 2 : "Two", 3 : "Three"}<br>B = {'A' : "Apple", 'B' : "Bat", 'C' : "Cat", 'D' : "Doll"}<br>for i in A:<br>&emsp;print(i)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "1<br> 2<br> 3",
+        "2": "one<br> two<br> three",
+        "3": "{1 : “One”, 2 : “Two”, 3 : “Three”}",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "for i in A: statement  will iterate over keys of the dictionary A. "
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "for i in A: statement  will iterate over keys of the dictionary A. "
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,62 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "How many asterisks will be printed when the following code executes?
+<br>for x in [0, 1, 2, 3]:
+<br>&emsp;for y in [0, 1, 2, 3, 4]:
+<br>&emsp;&emsp;print('*')"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "0",
+        "2": "4",
+        "3": "5",
+        "4": "20",
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since outer and inner loop will iterate 4 and 5 times respectively, print statement will run 5*4=20 times."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since outer and inner loop will iterate 4 and 5 times respectively, print statement will run 5*4=20 times."
+          }
+        ]
+      }
+    }
+  ]

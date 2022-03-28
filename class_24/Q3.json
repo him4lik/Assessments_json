@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the output of the following code :<br>A = {1 : "One", 2 : "Two", 3 : "Three"}<br>B = {'A' : "Apple", 'B' : "Bat", 'C' : "Cat", 'D' : "Doll"}<br>A.update(B)<br>print(B)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "{‘A’ : ‘Apple’ , ‘B’ : ‘Bat’ , ‘C’ : ‘Cat’ , ‘D’ : ‘Doll’}",
+        "2": "{1 : “One” , 2 : “Two” , 3 : “Three”}",
+        "3": "{1: ‘One’ , 2: ‘Two’ , 3: ‘Three’ , ‘A’: ‘Apple’ , ‘B’: ‘Bat’ , ‘C’: ‘Cat’ , ‘D’: ‘Doll’}",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We are adding elements of B in A but printing B. Hence A will change but B will remain unchanged."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We are adding elements of B in A but printing B. Hence A will change but B will remain unchanged."
+          }
+        ]
+      }
+    }
+  ]

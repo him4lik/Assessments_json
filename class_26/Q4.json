@@ -11,9 +11,9 @@
     {
       "component": "options",
       "value": {
-        "1": "We can create a function with no argument and no return value.",
-        "2": "We can create function with no argument and with return value(s)",
-        "3": "We can create a function with argument(s) and no return value.",
+        "1": "We can create a function with no parameter and no return value.",
+        "2": "We can create function with no parameter and with return value(s)",
+        "3": "We can create a function with parameter(s) and no return value.",
         "4": "All of the above"
       }
     },

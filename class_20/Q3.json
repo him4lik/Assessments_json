@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following will give output as [23,2,9,75] if: <br>list1=[6,23,3,2,0,9,8,75]"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "print(list1[1:7:2])",
+        "2": "print(list1[0:7:2])",
+        "3": "print(list1[1:8:2])",
+        "4": "print(list1[0:8:2])"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can get required output by starting at index 1 and ending at 8 with a step of 2"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can get required output by starting at index 1 and ending at 8 with a step of 2"
+          }
+        ]
+      }
+    }
+  ]

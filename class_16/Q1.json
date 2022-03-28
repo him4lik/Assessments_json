@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What will be the output of the following code?<br>x = "abcd"<br>for i in range(len(x)):<br>&emsp;print(i)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "abcd",
+        "2": "0 1 2 3",
+        "3": "1 2 3 4",
+        "4": "a b c d"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "len(x) is 4. Hence range(4) will give values 0,1,2,3"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "len(x) is 4. Hence range(4) will give values 0,1,2,3"
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is a valid for loop in Python?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "for(i=0; i < n; i++)",
+        "2": "for i in range(0,5):",
+        "3": "for i in range(0,5)",
+        "4": "for i in range(5)"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Second one is the correct syntax of for loop in python"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Second one is the correct syntax of for loop in python"
+          }
+        ]
+      }
+    }
+  ]

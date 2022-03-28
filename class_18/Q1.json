@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the result of executing the following code?<br>number = 5<br>while number <= 5:<br>&emsp;if number < 5:<br>&emsp;&emsp;number = number + 1<br>&emsp;print(number)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "The program will loop infinitely",
+        "2": "The value of number will be printed exactly 1 time",
+        "3": "The while loop will never get executed",
+        "4": "The value of number will be printed exactly 5 times",
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since the initial value of variable number is 5, it will never encounter the increment statement and will iterate infinitely."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since the initial value of variable number is 5, it will never encounter the increment statement and will iterate infinitely."
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the value of the variable chocolate after the following code: <br>chocolate = 5<br>chocolate = 3<br>chocolate,a,b = “hello”,1,2"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "5",
+        "2": "3",
+        "3": "hello",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can reassign values of any data type to a variable"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can reassign values of any data type to a variable"
+          }
+        ]
+      }
+    }
+  ]

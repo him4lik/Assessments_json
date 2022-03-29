@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "Complete the code to find sum of first 10 even numbers<br>i=2<br>while -----:<br>&emsp;sum+=i<br>&emsp;-----<br>print(sum)"
+      "value": "Complete the code to find sum of first 10 even numbers<br>i=2<br>while _________:<br>&emsp;sum+=i<br>&emsp;_________<br>print(sum)"
     },
     {
       "component": "options",

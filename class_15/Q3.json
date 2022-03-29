@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the following code?<br>i=1<br>j=1<br>while i<3:<br>&emsp;while j<3:<br>&emsp;&emsp;print(i,j, end=" ")<br>&emsp;&emsp;j+=1"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "1,1 1,2 2,1 2,2",
+        "2": "Infinite loop",
+        "3": "Error",
+        "4": "1 2 3 4 5 6 7 8 9"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since there is no increment for i, the outer loop will keep iterating infinite times."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since there is no increment for i, the outer loop will keep iterating infinite times."
+          }
+        ]
+      }
+    }
+  ]

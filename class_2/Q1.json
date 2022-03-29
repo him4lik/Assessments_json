@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is a correct variable name?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "3men",
+        "2": "$M",
+        "3": "_X",
+        "4": "^3G"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Variable names cannot start with a number or special characters other than underscore."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Variable names cannot start with a number or special characters other than underscore."
+          }
+        ]
+      }
+    }
+  ]

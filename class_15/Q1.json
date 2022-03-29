@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the output of the following code?<br>i = 1<br>while True:<br>&emsp;if i%3 == 0:<br>&emsp;&emsp;break<br>&emsp;print(i)<br>&emsp;i+=1"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "1 2",
+        "2": "1 2 3",
+        "3": "error",
+        "4": "none of the mentioned"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "When i becomes 3 it will encounter the break statement and the while loop will terminate."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "When i becomes 3 it will encounter the break statement and the while loop will terminate."
+          }
+        ]
+      }
+    }
+  ]

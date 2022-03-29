@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Complete the code to find sum of first 10 even numbers<br>i=2<br>while -----:<br>&emsp;sum+=i<br>&emsp;-----<br>print(sum)"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "i<10, i+=1",
+        "2": "i<20, i+=2",
+        "3": "i<=20, i+=2",
+        "4": "i<=10, i+=1"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "First 10 even numbers would be 2,4,6,8,10,12,14,16,18,20. Hence the condition would be i<=20 and we have to increment  i by 2 after each iteration."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "First 10 even numbers would be 2,4,6,8,10,12,14,16,18,20. Hence the condition would be i<=20 and we have to increment  i by 2 after each iteration."
+          }
+        ]
+      }
+    }
+  ]

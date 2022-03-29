@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "Which of the following properly expresses the precedence of operators(using parentheses) in the expression: (5*3 > 10 and 4+6==11)<br>"
+      "value": "Which of the following properly expresses the precedence of operators(using parentheses) in the expression: (5*3 > 10 and 4+6==11)"
     },
     {
       "component": "options",

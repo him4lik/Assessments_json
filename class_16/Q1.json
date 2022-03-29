@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "What will be the output of the following code?<br>x = "abcd"<br>for i in range(len(x)):<br>&emsp;print(i)"
+      "value": "What will be the output of the following code?<br>x = 'abcd'<br>for i in range(len(x)):<br>&emsp;print(i)"
     },
     {
       "component": "options",

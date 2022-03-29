@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is of integer data type in python?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "“Hello”",
+        "2": "1",
+        "3": "3.0",
+        "4": "3j"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "a is string , c is float and d is complex data type."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "a is string , c is float and d is complex data type."
+          }
+        ]
+      }
+    }
+  ]

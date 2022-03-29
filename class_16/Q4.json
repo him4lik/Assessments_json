@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "Complete the code to print the following series:<br>10, 20, 30, .....100<br>i=10<br>while i<=100:<br>&emsp;print(i)<br>&emsp;-----"
+      "value": "Complete the code to print the following series:<br>10, 20, 30, .....100<br>i=10<br>while i<=100:<br>&emsp;print(i)<br>&emsp;_________"
     },
     {
       "component": "options",

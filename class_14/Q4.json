@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Else block in following code will be executed when:<br>while condition:<br>&emsp;#code block to run <br>else:<br>&emsp;#else clause code block"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "condition is false",
+        "2": "Else block with always run",
+        "3": "Else block will never run",
+        "4": "None"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "When we use else with while loop, then else block executes when condition becomes false."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "When we use else with while loop, then else block executes when condition becomes false."
+          }
+        ]
+      }
+    }
+  ]

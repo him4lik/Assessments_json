@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Write the code to swap the values of variables a and b where a=3 and b=2"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "a = b,<br>b = a",
+        "2": "a, b = b, a",
+        "3": "a==b,<br>b==a",
+        "4": "None of these"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can swap values of two variables using the concept of multiple variables assignment i.e a, b = b, a"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can swap values of two variables using the concept of multiple variables assignment i.e a, b = b, a"
+          }
+        ]
+      }
+    }
+  ]

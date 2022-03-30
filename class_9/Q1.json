@@ -34,7 +34,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Due to precedence, steps involved are different but final answer is same"
           }
         ],
         "incorrect": [
@@ -49,7 +49,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Due to precedence, steps involved are different but final answer is same"
           }
         ]
       }

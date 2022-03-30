@@ -34,7 +34,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since '/' operator in python gives a floating point number, result would be 9.0 instead of 9"
           }
         ],
         "incorrect": [
@@ -49,7 +49,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since '/' operator in python gives a floating point number, result would be 9.0 instead of 9"
           }
         ]
       }

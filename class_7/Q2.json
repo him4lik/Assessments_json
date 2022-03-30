@@ -36,7 +36,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'%' operator is used to find remainder in python"
           }
         ],
         "incorrect": [
@@ -51,7 +51,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'%' operator is used to find remainder in python"
           }
         ]
       }

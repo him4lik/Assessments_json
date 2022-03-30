@@ -35,7 +35,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since '%' operator is used to find remainder, answer is 2 as we get 2 as remainder after dividing 2 by 6."
           }
         ],
         "incorrect": [
@@ -50,7 +50,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since '%' operator is used to find remainder, answer is 2 as we get 2 as remainder after dividing 2 by 6."
           }
         ]
       }

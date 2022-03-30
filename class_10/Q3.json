@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the correct logical expressions for - name is rohit and age between 18 and 35"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "name==rohit and age >=18 and age<=35",
+        "2": "name==rohit and age >=18 or age<=35",
+        "3": "name==rohit or age >=18 and age<=35",
+        "4": "none"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since all three conditions must be satisfied simultaneously, we will use ‘and’ operator."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Since all three conditions must be satisfied simultaneously, we will use ‘and’ operator."
+          }
+        ]
+      }
+    }
+  ]

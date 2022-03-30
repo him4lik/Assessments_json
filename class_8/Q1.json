@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "What is the output of the following code <br>x = 100<br>y = 50<br>print(x and y)"
+      "value": "What is the output of the following code <br>x = True<br>y = True<br>print(x and y)"
     },
     {
       "component": "options",
@@ -36,7 +36,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'and' logical operator returns True if both the operands are True, otherwise False"
           }
         ],
         "incorrect": [
@@ -51,7 +51,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'and' logical operator returns True if both the operands are True, otherwise False"
           }
         ]
       }

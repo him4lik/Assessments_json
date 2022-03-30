@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "What does the following code print?: <br>if 4 + 5 == 10:<br>  print('TRUE')<br>else:<br>  print('FALSE')<br>print('TRUE')"
+      "value": "What does the following code print?: <br>if 4 + 5 == 10:<br>&emsp;print('TRUE')<br>else:<br>&emsp;print('FALSE')<br>print('TRUE')"
     },
     {
       "component": "options",
@@ -35,7 +35,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since 4+5==10 will be False, else block would be executed and since last statement if neither in if block nor in else block, it will always be executed."
           }
         ],
         "incorrect": [
@@ -50,7 +50,7 @@
           },
           {
             "component": "text",
-            "value""
+            "value": "Since 4+5==10 will be False, else block would be executed and since last statement if neither in if block nor in else block, it will always be executed."
           }
         ]
       }

@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "What will be the output of the following code? <br> a=12 <br> b=12 <br>print(a is b)"
+      "value": "What will be the output of the following code? <br>a=12 <br>b=12 <br>print(a is b)"
     },
     {
       "component": "options",
@@ -34,7 +34,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'is' operator checks when two values are at same memory location or not.'"
           }
         ],
         "incorrect": [
@@ -49,7 +49,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'is' operator checks when two values are at same memory location or not."
           }
         ]
       }

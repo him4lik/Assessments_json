@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Complete the code to take an integer input from the user:<br>X = ___(input(“Enter an integer”))"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "int",
+        "2": "float",
+        "3": "string",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "1"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "input() returns a string which we can convert to any data type using type conversion functions (int() in this case)"
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "input() returns a string which we can convert to any data type using type conversion functions (int() in this case)"
+          }
+        ]
+      }
+    }
+  ]

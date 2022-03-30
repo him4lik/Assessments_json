@@ -36,11 +36,10 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "-18/4 will give -4.5, and we know that '//' operator removes the decimal part from the result. Hence after removing the decimal part, we get -4"
           }
         ],
         "incorrect": [
-          {
             "component": "text",
             "value": "It missed the mark"
           },
@@ -51,7 +50,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "18/4 will give -4.5, and we know that '//' operator removes the decimal part from the result. Hence after removing the decimal part, we get -4"
           }
         ]
       }

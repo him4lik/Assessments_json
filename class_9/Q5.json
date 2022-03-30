@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "Complete the following code with appropriate logical operator such that output isTrue if age is greater than 18 and less that 50, otherwise output should be False<br>print(age>18    age<50) ."
+      "value": "Complete the following code with appropriate logical operator such that output is True if age is greater than 18 and less that 50, otherwise output should be False<br>print(age>18<u><pre>    </pre></u>age<50) ."
     },
     {
       "component": "options",
@@ -35,7 +35,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since we need the range 18-50, both the condition must be true. Hence 'and' operator will be used"
           }
         ],
         "incorrect": [
@@ -50,7 +50,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Since we need the range 18-50, both the condition must be true. Hence 'and' operator will be used"
           }
         ]
       }

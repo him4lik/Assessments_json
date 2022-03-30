@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Complete the following code to print the type of variable X<br>A = 3<br>X = 5<br>C = A+X<br>X = C<br>print( ______ )"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "X.type",
+        "2": "Type of X",
+        "3": "type(X)",
+        "4": "None of the above"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "3"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Python has a type() function to know the type of a variable."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Python has a type() function to know the type of a variable."
+          }
+        ]
+      }
+    }
+  ]

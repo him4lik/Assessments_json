@@ -36,7 +36,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'==' operator checks whether two values are same or not, and 'is' operator checks whether two values are located at the same memory location or not"
           }
         ],
         "incorrect": [
@@ -51,7 +51,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'==' operator checks whether two values are same or not, and 'is' operator checks whether two values are located at the same memory location or not"
           }
         ]
       }

@@ -6,7 +6,7 @@
     },
     {
       "component": "text",
-      "value": "What will be the output of the following code? <br>a=12 <br> b=54 <br> a+=2<br>b%=3<br>print(a, b)"
+      "value": "What will be the output of the following code? <br>a=12 <br>b=54 <br>a+=2<br>b%=3<br>print(a, b)"
     },
     {
       "component": "options",
@@ -36,7 +36,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "a+=2 will add 2 in a and b%=3 will result in value of b = the remainder when b is divided by 3"
           }
         ],
         "incorrect": [
@@ -51,7 +51,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "a+=2 will add 2 in a and b%=3 will result in value of b = the remainder when b is divided by 3"
           }
         ]
       }

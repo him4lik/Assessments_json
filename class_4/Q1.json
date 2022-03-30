@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Which of the following is a valid String?"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "\"S\"",
+        "2": "'S'",
+        "3": "'''S'''",
+        "4": "All of these"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "4"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Stream of characters enclosed by any number of inverted commas is considered a string in python."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Stream of characters enclosed by any number of inverted commas is considered a string in python."
+          }
+        ]
+      }
+    }
+  ]

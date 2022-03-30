@@ -36,7 +36,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'>=', '!=', '<=' operators checks whether first operand is greater than or equal to, not equal to and less than or equal to second operand respectively."
           }
         ],
         "incorrect": [
@@ -51,7 +51,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "'>=', '!=', '<=' operators checks whether first operand is greater than or equal to, not equal to and less than or equal to second operand respectively."
           }
         ]
       }

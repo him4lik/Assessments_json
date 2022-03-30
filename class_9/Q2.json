@@ -35,7 +35,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "In first expression, due to paranthesis, exponentiation operators would execute from left to right whereas in second expression, exponentiation operators will execute from right to left"
           }
         ],
         "incorrect": [
@@ -50,7 +50,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "In first expression, due to paranthesis, exponentiation operators would execute from left to right whereas in second expression, exponentiation operators will execute from right to left"
           }
         ]
       }

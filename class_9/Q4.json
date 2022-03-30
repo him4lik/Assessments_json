@@ -35,7 +35,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Same precedence operators are evaluated from left to right with exponentiation as an exception which are evaluated from right to left"
           }
         ],
         "incorrect": [
@@ -50,7 +50,7 @@
           },
           {
             "component": "text",
-            "value": ""
+            "value": "Same precedence operators are evaluated from left to right with exponentiation as an exception which are evaluated from right to left"
           }
         ]
       }

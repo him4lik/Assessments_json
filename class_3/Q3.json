@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "What is the data type of the variable ‘marks’, marks = 99.5"
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "Int",
+        "2": "Float",
+        "3": "String",
+        "4": "Complex"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Float values are those who have decimal points."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "Float values are those who have decimal points."
+          }
+        ]
+      }
+    }
+  ]

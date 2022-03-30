@@ -1,0 +1,59 @@
+[
+    {
+      "component": "header",
+      "variant": 3,
+      "value": "Let's dive in with a code sample"
+    },
+    {
+      "component": "text",
+      "value": "Select the correct program to swap the values of two variables x and y where x = “hi” and y = 3 and print their types as well."
+    },
+    {
+      "component": "options",
+      "value": {
+        "1": "x = y,<br>y = z<br>print(x.type, y.type)",
+        "2": "x , y = y, x<br>print(type(x), type(y))",
+        "3": "x==3,<br>y==”hi”<br>print(type of x, type of y)",
+        "4": "None of these"
+      }
+    },
+    {
+      "component": "solution",
+      "value": "2"
+    },
+    {
+      "component": "output",
+      "value": {
+        "correct": [
+          {
+            "component": "text",
+            "value": "You got it right"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can swap values of two variables using the concept of multiple variables assignment i.e x, y = y, x . And to know the datatype, python type() function."
+          }
+        ],
+        "incorrect": [
+          {
+            "component": "text",
+            "value": "It missed the mark"
+          },
+          {
+            "component": "header",
+            "variant": 3,
+            "value": "Let's see why"
+          },
+          {
+            "component": "text",
+            "value": "We can swap values of two variables using the concept of multiple variables assignment i.e x, y = y, x . And to know the datatype, python type() function."
+          }
+        ]
+      }
+    }
+  ]
